@@ -82,7 +82,7 @@ Rating.belongsTo(Device);
 Device.hasMany(BasketDevice);
 BasketDevice.belongsTo(Device);
 
-Device.hasMany(DeviceInfo);
+Device.hasMany(DeviceInfo, {as: 'info'});  //название поля, кот.будет у массива характеристик
 DeviceInfo.belongsTo(Device);
 
 Type.belongsToMany(Brand, { through: TypeBrand });   //много ко многим
