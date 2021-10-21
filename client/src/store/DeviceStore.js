@@ -37,7 +37,7 @@ export default class DeviceStore {
     get brands() {
         return this._brands;
     }
-    get devices(devices) {
-        this._devices = devices;
+    get devices() {
+        return this._devices;
     }
 }

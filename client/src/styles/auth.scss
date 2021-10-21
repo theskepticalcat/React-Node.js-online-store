@@ -1,0 +1,52 @@
+$green: green;
+
+.auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: calc(100vh - 54px);
+
+    &__card {
+        width: 600px;
+        padding: 10px;
+    
+        &-title {
+            margin: auto;
+            margin-bottom: 5px;
+        }
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+    
+        &-input {
+            margin-bottom: 10px;
+        }
+    }
+
+    &__footer {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin: auto 0;
+    
+        &-registration {
+            width: auto;
+        
+            a {
+                color: green;
+        
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+        
+        &-btn {
+            width: auto;
+            background-color: lighten($green, 75%);
+        }
+    }
+}

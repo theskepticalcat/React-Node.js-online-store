@@ -1,0 +1,17 @@
+.navbar__name {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+        color: yellow;
+    }
+}
+
+.nav__btn {
+    margin-left: 10px;
+
+    &:hover {
+        background-color: yellow;
+        border-color: yellow;
+    }
+}
