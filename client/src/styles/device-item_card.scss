@@ -1,0 +1,32 @@
+.device-item {
+    width: auto;
+    margin: auto;
+    margin-bottom: 10px;
+
+    &__card {
+        width: 150px;
+        cursor: pointer;
+    
+        img {
+            width: 150;
+            height: 150;
+        }
+
+        &-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 3px;
+            color: lighten(black, 50%);
+
+            .rating {
+                display: flex;
+                align-items: center;
+
+                img {
+                    margin-left: 2px;
+                }
+            }
+        }
+    }
+}
